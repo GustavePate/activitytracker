@@ -334,7 +334,7 @@ class Subs(threading.Thread):
 
                 #file name construction
                 day  = now.strftime('%Y%m%d')
-                filename = day + '_useractivitytracker'
+                filename = day + '_useractivitytracker.log'
                 path = os.path.join(self.logpath, filename)
 
                 #log
